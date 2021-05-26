@@ -20,8 +20,8 @@ def main():
 
     if choice == 'Home':
         st.subheader('Home')
-        st.text('A simple startup recommender implementing the KNN algorithm')
-        st.text('Get to know potential startups to invest in using our recommender')
+        st.write('A simple startup recommender implementing the KNN algorithm')
+        st.write('Get to know potential startups to invest in using our recommender')
     
     elif choice == 'Recommend':
         st.subheader('Recommend')
