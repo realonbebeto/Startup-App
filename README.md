@@ -11,7 +11,7 @@
 **Python Version:** 3.8  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, streamlit, joblib  
 **For Project Framework Requirements:**  ```pip install -r requirements.txt```  
-**Data on Kaggle:** https://github.com/arapfaik/scraping-glassdoor-selenium   
+**Data on Kaggle:** https://www.kaggle.com/justinas/startup-investments 
 **Streamlit Productionization:** https://towardsdatascience.com/deploying-a-basic-streamlit-app-ceadae286fd0
 
 ## Data Cleaning and Processing
