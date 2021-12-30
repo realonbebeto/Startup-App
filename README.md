@@ -13,6 +13,7 @@
 **For Project Framework Requirements:**  ```pip install -r requirements.txt```  
 **Data on Kaggle:** https://www.kaggle.com/justinas/startup-investments   
 **Streamlit Productionization:** https://towardsdatascience.com/deploying-a-basic-streamlit-app-ceadae286fd0
+**Heroku Deployment:** https://towardsdatascience.com/a-quick-tutorial-on-how-to-deploy-your-streamlit-app-to-heroku-874e1250dadd
 
 ## Data Cleaning and Processing
 After collecting the data, I cleaned it up so that it was usable for our model. I made the following changes and created the following variables:
@@ -49,4 +50,4 @@ The Random Forest model far outperformed the other approaches on the test and va
 In this step, I built a KNN based recommender that borrows ideas from content and collaborative filtering.
 ## Productionization
 
-In this step, I built a Streamlit API endpoint that was hosted on a local webserver by following along with the productization tutorial in the reference section above together with the official [Streamlit documentation](https://docs.streamlit.io/en/stable/). The API endpoint takes in a request with status, chance of success and number of startups values from a user and returns recommended startups and their responding shallow profile.
+In this step, I built a Streamlit API endpoint that was hosted on heroku by following along with the productization tutorial in the reference section above together with the official [Streamlit documentation](https://docs.streamlit.io/en/stable/). The API endpoint takes in a request with status, chance of success and number of startups values from a user and returns recommended startups and their responding shallow profile.
